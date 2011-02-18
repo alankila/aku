@@ -1,0 +1,121 @@
+body {
+    margin: auto;
+    width: 800px;
+    background-color: #bed0d0;
+    color: black;
+    font-family: Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+#container {
+    background-color: white;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#title {
+    width: 100%;
+    height: 210px;
+    background-position: 50% 50%;
+    background-image: url(ramsaynkuja.jpg);
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #ccc;
+}
+
+#menu {
+    float: left;
+    width: 185px;
+    display: none; /* overridden by javascript! */
+}
+
+#menu ul {
+    display: block;
+    font-size: 80%;
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+    border-top: 1px solid #ccc;
+}
+
+#menu li {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 1px;
+    margin: 0;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 9px;
+}
+
+#menu li.selected a,
+#menu a:hover {
+    background-color: #ddd;
+}
+
+#content {
+    padding-left: 200px;
+    padding-top: 5px;
+}
+
+#content h1 {
+    margin: 5px 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 150%;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+#content h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 125%;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+img {
+    border: 1px solid #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 80%;
+    width: 100%;
+    margin-top: 1em;
+}
+
+tr {
+    vertical-align: top;
+}
+
+th, td {
+    padding: 4px;
+    border: 1px solid #ccc;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+    background-color: #eee;
+}
+
+dl {
+    padding: 0;
+    margin: 1em 0 1em 0;
+}
+
+dt {
+    font-size: 125%;
+    margin: 0;
+    padding: 0;
+}
+
+dd {
+    margin: 1em 2em 1em 2em;
+    padding: 0;
+}
