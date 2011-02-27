@@ -10,9 +10,9 @@ body {
 #container {
     background-color: white;
     padding: 10px;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
 }
 
 #title {
